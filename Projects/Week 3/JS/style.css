@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 855px;
+}
+
+.comment-input {
+	width: 285px;
+	float: left;
+}
+
+.comments {
+	width: 570px;
+	float: right;
+}
+.comments p:nth-child(even) {
+	background: lavender;
+}
+
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
