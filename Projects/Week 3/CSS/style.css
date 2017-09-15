@@ -1,0 +1,77 @@
+/* Here we are styling the body*/
+body {
+	background: lightcyan;
+	width: 800px;
+	margin: auto;
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+	font-family: 'Denk One', serif;
+}
+
+.number {
+	font-size: xx-large;
+}
+
+ol {
+	border: 5px;
+	border-radius: 10px;
+}
+
+ol li {
+	color: brown;
+}
+
+ul li:nth-child(3) {
+	background: white;
+}
+/**p.first and p.second are a decendent of div.main. they will be centered, but the border and padding will change due to cascading rules**/
+div.main {
+	border: 5px;
+	text-align: center;
+	padding: 5px;
+}
+
+.content p {
+	clear: both;
+}
+
+p.first {
+	color: gray;
+	border: 2px dashed blue;
+	padding: 20px;
+}
+
+p.second {
+	color: red;
+	margin: 10px;
+	border: 5px solid black;
+	padding:10px;
+}
+
+p.three {
+	text-align: center;
+}
+
+a {
+	color: cornflowerblue;
+	font-size: 1.2em;
+}
+
+a:visited {
+	color: tomato;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	width: 200px;
+	margin: auto;
+	background: pink;
+	float: right;
+	padding: 20px;
+}
