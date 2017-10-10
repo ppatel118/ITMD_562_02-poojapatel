@@ -1,0 +1,24 @@
+{
+  "name": "Week 7 Assignment",
+  "version": "0.0.1",
+  "description": "Node js server which responds to GET, POST, and PUT calls",
+  "main": "app.js",
+  "engines": {
+    "npm": "2.1.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "hands",
+    "system"
+  ],
+  "author": "Pooja Patel",
+  "license": "Private Licence",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongodb": "^2.2.31"
+  }
+}
