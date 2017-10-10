@@ -1,0 +1,27 @@
+{
+"name": "Assignment7",
+"version": "0.2.0",
+"description": "Node js server which responds to GET, POST, and PUT calls",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+},
+"dependencies": {
+"body-parser": "*",
+"express": "*",
+"mongodb": "^2.2.31"
+},
+"engines": {
+"node": "4.0.0"
+},
+"repository": {
+"type": "git",
+"url": "https://github.com/ppatel118/itmd_562_02-poojapatel/Assignments/Week7"
+},
+"keywords": [
+"node",
+"assignment",
+"express"
+],
+"author": "Pooja Patel"
+}
