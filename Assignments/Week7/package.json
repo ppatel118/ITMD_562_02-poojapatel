@@ -1,5 +1,5 @@
 {
-  "name": "Week 7 Assignment",
+  "name": "Week7",
   "version": "0.0.1",
   "description": "Node js server which responds to GET, POST, and PUT calls",
   "main": "server.js",
