@@ -20,6 +20,5 @@
     "body-parser": "*",
     "express": "*",
     "mongodb": "^2.2.31"
-    "node": "^6.11.3"
   }
 }
