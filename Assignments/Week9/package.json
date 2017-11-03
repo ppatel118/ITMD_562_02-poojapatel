@@ -1,0 +1,17 @@
+{
+  "name": "assignment6",
+  "version": "1.0.0",
+  "description": "Reminders Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "author": "Pooja Patel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
