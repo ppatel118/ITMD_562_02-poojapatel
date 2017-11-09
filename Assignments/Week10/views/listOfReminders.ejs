@@ -1,0 +1,24 @@
+<% include partials/header%>
+<div class="container">
+	<h1>List of Reminders:</h1>
+
+	<% reminders.forEach(function(reminder) { %>
+		<ul>
+			<li><%= reminder %></li>
+		</ul>
+	<% }); %>
+	<br>
+
+	<form action="/addreminder" method="POST" class="form-inline">
+	  <div class="form-group">
+	    <label for="title">Title</label><br>
+	    <input type="text" class="form-control" id="title"  name="newreminder" placeholder="Ex. Get Groceries">
+	  </div>
+	  <br>
+	  <br>
+	  <label for="description">Description</label><br>
+	  <textarea name="description" class="form-control" rows="3" id="description" placeholder="Ex. Get Milk"></textarea><br><br>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>
+<% include partials/footer %>
