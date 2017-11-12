@@ -1,8 +1,8 @@
 {
-  "name": "node-assignment",
+  "name": "assignment8",
   "version": "1.0.0",
-  "description": "Assignment 8",
-  "main": "index.js",
+  "description": "Assignment 8 - UI testing",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
