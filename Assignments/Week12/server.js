@@ -89,8 +89,7 @@ app.get('/users/:userId', function(req, res) {
       var matchUser = users[userIndex];
       res.status(200).send({
         name: matchUser.name,
-        email: matchUser.email,
-        reminders: matchUser.reminders
+        email: matchUser.email
       });
     }
   }
@@ -211,3 +210,5 @@ app.delete('/users/:userId/reminders/:reminderId', function(req, res) {
     }
   }
 });
+
+module.exports = app;
